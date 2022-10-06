@@ -1,0 +1,143 @@
+.Layer_0 {
+    background-image: url("Layer 0.png");
+    position: absolute;
+    left: 124px;
+    top: 136px;
+    width: 2310px;
+    height: 2310px;
+    z-index: 2;
+    align-content: center;
+    text-align: center;
+  }
+body {
+    background-color: black;
+    text-align: center;
+    align-content:center;
+}
+head {
+  text-align: center;
+  align-content: center;
+}
+nav {
+  font-family:'futura-pt-condensed', sans-serif;
+  font-weight: 500;
+  font-size: xx-large;
+  font-style: normal;
+  text-align: center;
+  padding: 20px;
+  }
+nav     ul {
+       list-style-type:none;
+       position: center;
+       margin: 0;
+       padding: 20px;
+       overflow: hidden;
+       background-color:black;
+       text-align: center;
+     }
+    .nav_links a { 
+      display: inline-block;
+      align-content:center;
+      width: 20%;
+      padding:left 20px;
+      padding:right 20px;
+      cursor:pointer;
+      border-left: 1px solid red;
+      margin-right: 30px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+nav li {
+  display: inline-block;
+  padding-right: 30px;
+}
+     li {
+       float:center;
+     }
+     
+     li a {
+       display: block;
+       color: white;
+       text-align: left;
+       text-decoration: none;
+       text-align: center;
+     }
+     
+     li a:hover:not(.active) {
+       background-color: #FD0019;
+     }
+     
+     .active {
+       background-color: black;
+     }
+
+     div block-element {
+      width: 300px;
+           display: inline-block;
+      }
+p {
+  background-color: black;
+  color:white;
+  padding: 05px;
+  font-family:'Harman-Sans', sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  align-content:center;
+}
+h4 {
+  background-color:black;
+  color:#FD0019;
+  font-family:'Harman-Sans', sans-serif;
+  text-align: center;
+  font-size: xx-large;
+}
+button {
+  background-color: #FD0019;
+  color: black;
+  font-family:'Harman-Sans', sans-serif;
+  font-size: x-large;
+  padding: 14px 30px;
+  margin:0 auto;
+  display:block
+}
+h3 {
+  font-display:'futura-PT-medium', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: x-large;
+}
+h1 {
+  background-color: #FD0019;
+  color: black;
+  font-family:'futura-PT-medium', sans-serif;
+  align-content: center;
+  text-align: center;
+  padding: 10px;
+}
+h2 {
+    background-color: #FD0019;
+    color: black;
+    font-family:'Harman-Sans', sans-serif;
+    font-size:x-large;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+  }
+  img {
+     align-content: center;
+     text-align: center;
+  }
+  div {
+    text-align: center;
+    align-content: center;
+  }
+  footer {
+    text-align: center;
+    font-family:'futura-PT-medium', sans-serif;
+    font-size:small;
+    padding: 50px;
+  }
+  :any-link {
+    color: white;
+    font-family: 'Harman-Sans', sans-serif;
+  }
